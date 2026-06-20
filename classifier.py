@@ -55,6 +55,9 @@ def build_few_shot_prompt(labeled_examples: list[dict], description: str) -> str
 
     Before writing code, complete specs/classifier-spec.md.
     """
+
+    prompt = "You are a podcast classifier. Your task is to classify the following podcasts as either: interview, narrative, panel, or solo. Provide an explanation to justify your choice."
+
     return ""
 
 
